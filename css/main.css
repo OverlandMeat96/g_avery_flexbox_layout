@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Socument */
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+.hidden {
+	display: none;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	width: 1125px;  /* Iphone X */
+	height: 2436px; /* Iphone X */
+	background-color: #efefef;
+}
+
+.box1 {
+	background-color: pink;
+	color: black;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	font-size:  14px;
+	width: 50%;
+}
+
+.box2 {
+	background-color: red;
+	color: black;
+	border-radius: 5px;
+	padding: 20px;
+	text-align: center;
+	margin: 10px;
+	font-size:  14px;
+	width: 50%;
+}
+
+.box3 {
+	font-size:  0px;
+}
+
+.box4 {
+	font-size:  0px;
+}
+
+@media screen and (max-width: 641px) {
+
+ 	.box1 {
+		background-color: blue;
+		width: 25%;
+	}
+
+	.box2 {
+		background-color: purple;
+		width: 25%;
+	}
+
+	.box3 {
+		background-color: grey;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		margin: 10px;
+		font-size:  14px;
+		width: 25%;
+	}
+
+	.box4 {
+		background-color: brown;
+		border-radius: 5px;
+		padding: 20px;
+		text-align: center;
+		margin: 10px;
+		font-size:  14px;
+		width: 25%;
+	}
+}

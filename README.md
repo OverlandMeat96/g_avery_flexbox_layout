@@ -1,1 +1,3 @@
-# g_avery_flexbox_layout
+# Flexbox Layout Homework
+
+Doc Outline - Located in  assets folder.
